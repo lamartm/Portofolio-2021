@@ -10,7 +10,9 @@ AOS.init();
 const Projects = () => {
   return (
     <section className={styles.projects}>
-      <h1 data-aos="fade">Some of my projects:</h1>
+      <h1 data-aos="fade" data-aos-duration="1000">
+        Some of my projects:
+      </h1>
       <Project
         direction={container.left}
         image=".\projects\buurtont.png"

@@ -9,10 +9,10 @@ const Experience = () => {
   return (
     <section className={styles.experienceContainer}>
       <article>
-        <h1 data-aos="fade" data-aos-duration="700">
+        <h1 data-aos="fade" data-aos-duration="1000">
           I have experience in:
         </h1>
-        <div data-aos="fade" data-aos-duration="700" data-aos-delay="700">
+        <div data-aos="fade" data-aos-duration="1000" data-aos-delay="900">
           <img src=".\experience-images\html.png" alt="html"></img>
           <img src=".\experience-images\css.png" alt="css"></img>
           <img src=".\experience-images\js.png" alt="js"></img>
