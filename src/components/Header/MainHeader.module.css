@@ -1,0 +1,55 @@
+.hContainer {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-shadow: 0rem 0rem 0.7rem rgb(255 255 255 / 40%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(151deg, #1139eb, #458dc9, #e4eaf1);
+  background-size: 200% 200%;
+  position: relative;
+  -webkit-animation: gradi 8s ease infinite;
+  animation: gradi 8s ease infinite;
+  color: white;
+}
+
+.hContainer h1 {
+  font-size: 3rem;
+}
+
+.hContainer h2 {
+  font-size: 2rem;
+}
+
+@-webkit-keyframes gradi {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes gradi {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+/*# sourceMappingURL=MainHeader.css.map */

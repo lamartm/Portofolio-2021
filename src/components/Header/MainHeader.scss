@@ -1,0 +1,39 @@
+.hContainer {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    151deg,
+    rgb(17, 57, 235),
+    rgb(69, 141, 201),
+    rgb(228, 234, 241)
+  );
+  background-size: 200% 200%;
+  position: relative;
+  animation: gradi 8s ease infinite;
+  color: white;
+}
+.hContainer h1 {
+  font-size: 2em;
+}
+
+.hContainer h2 {
+  font-size: 1.5em;
+}
+
+@keyframes gradi {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
