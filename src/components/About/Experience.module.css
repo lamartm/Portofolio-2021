@@ -1,0 +1,20 @@
+.experienceContainer {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6em;
+}
+.experienceContainer h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.experienceContainer img {
+  padding: 1em;
+  width: 3em;
+  height: 3em;
+}
+.experienceContainer img:last-child {
+  width: 3em;
+  height: 3em;
+}
