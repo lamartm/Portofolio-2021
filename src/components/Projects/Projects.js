@@ -20,24 +20,31 @@ const Projects = () => {
       />
       <Project
         direction={container.right}
+        image=".\projects\ray.png"
+        title="Ray"
+        description="A mockup site I made with React"
+        link="https://ray-mockup.herokuapp.com/"
+      />
+      <Project
+        direction={container.left}
         image=".\projects\nasa.png"
         title="NASA Webapp"
         description="Application showing latest photo's from active mars rovers, using the NASA API"
         link="https://lit-coast-91448.herokuapp.com/"
       />
       <Project
-        direction={container.left}
+        direction={container.right}
         image=".\projects\carpool.png"
         title="RDW Datavisualisation"
         description="An datavisualisation made for the RDW about various carpool locations in the Netherlands"
         link="https://lamartm.github.io/frontend-data/"
       />
       <Project
-        direction={container.right}
-        image=".\projects\feast.png"
-        title="We Feast"
-        description="A mockup site I made for school focusing mostly on design"
-        link="https://lamartm.github.io/We-Feast/"
+        direction={container.left}
+        image=".\projects\russ.png"
+        title="Russ & Daughters"
+        description="A mockup site I made for school focusing mostly on design and animations"
+        link="https://lamartm.github.io/css-to-the-rescue-2021/"
       />
     </section>
   );
