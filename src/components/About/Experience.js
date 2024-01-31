@@ -16,6 +16,7 @@ const Experience = () => {
           <img src=".\experience-images\html.png" alt="html"></img>
           <img src=".\experience-images\css.png" alt="css"></img>
           <img src=".\experience-images\js.png" alt="js"></img>
+          <img src=".\experience-images\Typescript.png" alt="Typescript"></img>
           <img src=".\experience-images\react.png" alt="react"></img>
           <img src=".\experience-images\vue.png" alt="vue"></img>
           <img src=".\experience-images\sass.png" alt="sass"></img>

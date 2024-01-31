@@ -18,13 +18,14 @@ const About = () => {
           <article>
             <h1>About Me</h1>
             <p>
-              My name is Mohamed Lamarti and I am currently studying
-              Communication and Multimedia Design at the Amsterdam University of
-              Applied Sciences
+              My name is Mohamed Lamarti and I am a frontend developer with a
+              bachelor in Communication and Multimedia Design from Amsterdam
+              University of Applied Sciences
             </p>
             <p>
-              I primarily build web pages/applications in HTML/CSS/Javascript
-              and preferably use React as framework of choice within JS.
+              I primarily build web pages/applications in
+              HTML/CSS/Javascript(Typescript) and preferably use React as
+              framework of choice within JS
             </p>
           </article>
         </section>
