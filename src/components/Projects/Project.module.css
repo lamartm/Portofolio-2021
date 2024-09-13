@@ -63,16 +63,27 @@
   .left {
     align-items: baseline;
     padding: 0.5em;
-    height: 90vh;
+    height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0fr 1fr;
     grid-template-areas:
       "Img"
       "Content";
   }
   .right img,
   .left img {
+    padding-top: 1em;
     align-self: center;
+  }
+
+  .right h1,
+  .left h1 {
+    padding-top: 1em;
+  }
+
+  .right p,
+  .left p {
+    margin: 2em 0em 1em 0em;
   }
 }
 @keyframes gradi {

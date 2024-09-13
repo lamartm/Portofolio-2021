@@ -10,7 +10,7 @@ const Experience = () => {
     <section className={styles.experienceContainer}>
       <article>
         <h1 data-aos="fade" data-aos-duration="700">
-          I have experience in:
+          These are some of the languages I have experience in:
         </h1>
         <div data-aos="fade" data-aos-duration="700" data-aos-delay="700">
           <img src=".\experience-images\html.png" alt="html"></img>

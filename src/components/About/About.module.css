@@ -35,6 +35,10 @@
   .container {
     height: 100%;
   }
+
+  .aboutContainer { 
+    padding: 3em 0em;
+  }
 }
 @keyframes gradi {
   0% {
