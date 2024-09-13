@@ -43,14 +43,14 @@ const Projects = () => {
         direction={container.left}
         image=".\projects\carpool.png"
         title="RDW Datavisualisation"
-        description="An datavisualisation made for the RDW about various carpool locations in the Netherlands. Made using the RDW API and the D3 library for the datavisualisation."
+        description="A datavisualisation made for the RDW about various carpool locations in the Netherlands. Made using the RDW API and the D3 library for the datavisualisation."
         link="https://lamartm.github.io/frontend-data/"
       />
       <Project
         direction={container.right}
         image=".\projects\ray.png"
         title="Ray"
-        description="A simple site I made fully with React, showcasing some filtering logic."
+        description="A site I made fully with React, showcasing some filtering logic."
         link="https://ray-mockup.herokuapp.com/"
       />
     </section>
