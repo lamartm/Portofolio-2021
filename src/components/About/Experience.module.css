@@ -1,20 +1,81 @@
 .experienceContainer {
-  font-family: "Quicksand", sans-serif;
   text-align: center;
+  z-index: 2;
   display: flex;
   justify-content: center;
   padding-bottom: 6em;
 }
+
+.experienceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .experienceContainer h1 {
-  font-size: 2rem;
-  font-weight: 700;
+  position: relative;
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin: 0;
+  width: fit-content;
+  padding-bottom: 1em;
 }
-.experienceContainer img {
-  padding: 1em;
-  width: 3em;
-  height: 3em;
+
+.experienceContainer h1::before {
+  content:url(/public/art/Star\ white.svg);
+  position: absolute;
+  bottom: 62px;
+  left: -9%;
+  width: 32px;
+  height: 32px;
 }
-.experienceContainer img:last-child {
-  width: 3em;
-  height: 3em;
+
+.experienceContainer h1::after {
+  content:url(/public/art/Star\ white.svg);
+  position: absolute;
+  top: -40px;
+  right: -8%;
+  width: 32px;
+  height: 32px;
 }
+
+.tooling-list {
+  list-style: none;
+  display: flex;
+  max-width: 1079px;
+  gap: 68px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) { 
+
+  .experienceContainer h1 {
+    font-size: 2rem;
+  }
+
+  .experienceContainer h1::before, .experienceContainer h1::after {
+    width: 20px;
+    height: 20px;
+  }
+
+  .experienceContainer h1::before {
+    bottom: 32px;
+  }
+
+  .experienceContainer h1::after {
+    top: -21px;
+  }
+
+  .tooling-list { 
+    gap: 28px;
+    max-width: 370px;
+    justify-content: center;
+  }
+}
+
+/* .experienceContainer h1 {
+  font-weight: normal;
+  font-size: 2.3rem;
+} */

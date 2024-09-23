@@ -3,34 +3,29 @@ import Experience from "./Experience";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "./About.module.css";
+import LineAnimation from "../LineAnimation/LineAnimation";
 
 AOS.init();
 
-const About = () => {
+const About = (props) => {
   return (
     <React.Fragment>
-      <div className={styles.container}>
-        <section
-          data-aos="fade"
-          data-aos-duration="700"
-          className={styles.aboutContainer}
-        >
-          <article>
+      <section className={`${styles.container} section`}>
+        <LineAnimation form="normal" color="white" />
+        <article className={styles.aboutContainer}>
+          <div>
             <h1>About Me</h1>
             <p>
-              My name is Mohamed Lamarti and I am a frontend developer with a
-              bachelor in Communication and Multimedia Design from Amsterdam
-              University of Applied Sciences
+              I'm a full-stack web developer situated in the Netherlands that's{" "}
+              <span>passionate</span> about creating <span>complex</span>,{" "}
+              <span>user-centric</span> and <span>engaging</span> web
+              applications.
             </p>
-            <p>
-              I primarily build web pages/applications in
-              HTML/CSS/Javascript(Typescript) and preferably use React as
-              framework of choice within JS
-            </p>
-          </article>
-        </section>
+          </div>
+        </article>
+        <LineAnimation form="reverse" color="white" />
         <Experience />
-      </div>
+      </section>
     </React.Fragment>
   );
 };

@@ -1,0 +1,25 @@
+@import "../node_modules/mouse-follower/dist/mouse-follower.min.css";
+
+:root {
+  --color-blue: #9e96ff;
+  --color-lighter-blue: #7b80fc;
+  --color-dark: #4a4a4a;
+  --color-beige: #fff5eb;
+  --color-gold: #fddeaf;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Suez One", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

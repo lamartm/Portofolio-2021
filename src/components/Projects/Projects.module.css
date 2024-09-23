@@ -1,12 +1,61 @@
-.projects h1 {
-  margin: 0;
-  font-size: 2rem;
-  text-shadow: 0rem 0rem 0.7rem rgb(81 81 81 / 34%);
+.projects--title {
+  width: fit-content;
+  padding-top: 1.5em;
+  margin: 0em auto;
+  position: relative;
+  font-size: 2.5rem;
+  color: var(--color-dark);
   text-align: center;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
+  font-weight: normal;
 }
 
+.projects--title::before {
+  content:url(/public/art/Star\ black.svg);
+  position: absolute;
+  bottom: -6px;
+  left: -11%;
+  width: 27px;
+  height: 27px;
+}
+
+.projects--title::after {
+  content:url(/public/art/Star\ black.svg);
+  position: absolute;
+  bottom: 62px;
+  right: -9%;
+  width: 27px;
+  height: 27px;
+}
 .projects {
-  padding-top: 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity; */
+  background-color: var(--color-beige);
+}
+
+.animation--wrapper {
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.animation--wrapper:first-of-type {
+  scroll-snap-align: none;
+}
+
+@media screen and (max-width: 800px) { 
+  .projects--title { 
+    font-size: 2rem;
+  }
+
+  .projects--title::before { 
+    bottom: -14px;
+  }
+
+  .projects--title::after { 
+    bottom: 39px;
+    right: -11%;
+  }
 }
