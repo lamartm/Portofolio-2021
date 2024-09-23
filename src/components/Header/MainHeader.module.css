@@ -10,7 +10,7 @@
   perspective: 1000px;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 100dvh;
   background-color: var(--color-dark);
   position: relative;
   color: var(--color-beige);

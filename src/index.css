@@ -46,13 +46,12 @@ body {
   scroll-snap-stop: always;
 }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 700px) { 
   .scroll-container {
     height: 100vh;
     overflow-y: normal;
     scroll-snap-type: none;
   }
-  
  }
 
 code {
