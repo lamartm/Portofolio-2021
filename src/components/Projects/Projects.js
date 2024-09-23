@@ -20,7 +20,7 @@ const Projects = forwardRef((props, ref) => {
         <h1 className={styles["projects--title"]}>Some of my work</h1>
         <Project
           direction={container.right}
-          image=".\projects\gamerater.png"
+          image=".\projects\gameraters.png"
           title="Game Rater"
           description="Application I made in which users can play against each other to see who knows their game ratings better. Made using the RAWG API for game information, WebSockets to retrieve user input and send it to an Express server, storing user data in MongoDB."
           link="https://rtw-ml.herokuapp.com/"
@@ -28,7 +28,7 @@ const Projects = forwardRef((props, ref) => {
         />
         <Project
           direction={container.left}
-          image=".\projects\nasa.png"
+          image=".\projects\nasaApp.png"
           title="NASA Webapp"
           description="Progressive web application I made showcasing the latest photo's from active Mars rovers, using the NASA API. I made use of a service worker in this project to add caching capabilities."
           link="https://lit-coast-91448.herokuapp.com/"
@@ -48,14 +48,14 @@ const Projects = forwardRef((props, ref) => {
         />
         <Project
           direction={container.right}
-          image=".\projects\buurtont.png"
+          image=".\projects\buurtontdekkers.png"
           title="Buurtontdekkers"
           description="Site I made for a local neighbourhood association while I was on an internship, in which I used Vue.js and Bulma CSS on the front-end side. "
           link="https://debuurtontdekkers.nl/"
         />
         <Project
           direction={container.left}
-          image=".\projects\cmdaSmoelenboek.png"
+          image=".\projects\cmdaSmoelenboeken.png"
           title="CMDA Smoelenboek"
           description="A face book I made for my university, showcasing teachers and their relevant information. Teacher information is stored in Prismic CMS and retrieved from there. Site was made to primarily be used on a big screen and it was designed with that in mind."
           link="https://smoelenboek-cmd.herokuapp.com/"
@@ -75,7 +75,7 @@ const Projects = forwardRef((props, ref) => {
         />
         <Project
           direction={container.right}
-          image=".\projects\carpool.png"
+          image=".\projects\carpools.png"
           title="RDW Datavisualisation"
           description="A datavisualisation made for the RDW about various carpool locations in the Netherlands. Made using the RDW API and the D3 library for the datavisualisation."
           link="https://lamartm.github.io/frontend-data/"
@@ -83,7 +83,7 @@ const Projects = forwardRef((props, ref) => {
         />
         <Project
           direction={container.left}
-          image=".\projects\ray.png"
+          image=".\projects\rays.png"
           title="Ray"
           description="A site I made fully with React, showcasing some filtering logic."
           link="https://ray-mockup.herokuapp.com/"
