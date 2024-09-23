@@ -46,6 +46,15 @@ body {
   scroll-snap-stop: always;
 }
 
+@media screen and (max-width: 800px) { 
+  .scroll-container {
+    height: 100vh;
+    overflow-y: normal;
+    scroll-snap-type: none;
+  }
+  
+ }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }/*# sourceMappingURL=index.css.map */
