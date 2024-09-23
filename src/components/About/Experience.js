@@ -28,7 +28,9 @@ const Experience = (props) => {
           ].map((tool, index) => (
             <Tooling
               key={tool}
-              src={`./experience-images/${tool}.svg`}
+              src={`./experience-images/${
+                tool === "Express" ? "Expres" : tool
+              }.svg`}
               alt={tool}
               name={tool}
             />
