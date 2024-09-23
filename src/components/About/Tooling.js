@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Tooling.module.css";
 
-const Tooling = (props, ref) => {
+const Tooling = (props) => {
   return (
     <li className={`${styles.tooling} black-cursor`}>
       <img
